@@ -9,9 +9,9 @@ async function test() {
     console.log("Done!");
 }
 
-const sleep = async (cc, ...args) => {
+const sleep = async (result, ...args) => {
     timeout(1000);
-    return cc(...args);
+    return result(...args);
 }
 
 const timeout = (ms) => {

@@ -6,7 +6,9 @@ const tambujin = new Promise(
             if (err) {
                 throw new Error(err.message)
             }
-            resolve(result)
+            setTimeout(() => {
+                resolve(result)
+            }, 2000)
         })
     }
 
