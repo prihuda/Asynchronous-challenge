@@ -133,7 +133,7 @@ console.log({...b, ...c}) //Output:{id:1, name:'Zeus' live:'Yunani', age:104}
 Sama halnya dengan array operation, supaya lebih mahir akan lebih baik jika dipraktekkan satu persatu supaya hafal fungsi dan parameter yang digunakan pada method tersebut. Tips/trick, pada saat coding seorang developer bisa melihat method dengan cara object.'nama method' otomatis pada code editor akan menganjurkan method tersedia<br>
 Untuk lebih jelasnya bisa kunjungi website [Tutorial object operation lengkap](https://developer.mozilla.org/id/docs/Web/JavaScript/Panduan/Working_with_Objects)
 ## Asynchronous
-JavaScript (JS) terkenal dengan gaya asynchronous-nya dibanding dengan bahasa lain yang pada awalnya diakomodir menggunakan callback. Terlebih pada node.js yang hampir semua core API-nya bersifat async. Pada Asynchronous memiliki 3 status yaitu pending, fulfilled(resolve(value)), rejected(reject (value)).
+JavaScript (JS) terkenal dengan gaya asynchronous-nya dibanding dengan bahasa lain yang pada awalnya diakomodir menggunakan callback. Terlebih pada node.js yang hampir semua core API-nya bersifat async. Pada Asynchronous memiliki 3 status yaitu pending, fulfilled(resolve(value)), rejected(reject (value)). Untuk lebih jelas bisa kunjungi website [Tutorial Asynchronous lengkap](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous#Guides)
 #### Contoh Pending
 ```
 let AuthUser = function(data) {
@@ -248,7 +248,7 @@ const timeout = (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-test();
+test(); //Output:1,2,3,Done!
 ```
 
 
